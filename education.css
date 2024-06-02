@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.fixed{
+    position: fixed;
+    z-index: 1000;
+    
+}
+.introshape{
+    width: 193%;
+    height: 100px;
+    background-color: black;
+}
+.logo{
+    width:100px;
+    height:100px;
+    transform: translateY(-100px);
+}
+.logoline{
+    width:20px;
+    height:2px;
+    background-color: red;
+}
+.logop{
+    color: white;
+    margin: 100px;
+    margin-top: -175px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@keyframes redline{
+    from{
+        width: 0%;
+    }
+    to{
+        width:16%;
+    }}
+    .logop::after{
+        position: absolute;
+        top: 52px;
+        height: 4px;
+        left: 100px;
+        content: '';
+        animation: redline 4s ease forwards;
+        background-color: red;
+    }
+.logop1{
+    color: white;
+    margin: 100px;
+    margin-top: -90px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display: inline-block;
+    justify-content: center;
+    
+}
+.navs{
+    transform: translateY(-145px)translateX(400px);
+    font-size: 20px;
+    display: inline-block ;
+    border:none;
+    margin-right: 40px;
+    color: white;
+    transition: transform 0.4s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    cursor: pointer;
+} 
+
+.navs:hover{
+   transform:  translateY(-145px)translateX(400px) scale(1.3) ;
+} 
+
+
+.poorpic{
+    position:absolute;
+    top:100px;
+    filter: brightness(60%);
+    width: 100%;
+    height: 600px;
+}
+.donatep{
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 700;
+    -webkit-text-stroke: 3px purple;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+}
+.line{
+    background-color: white;
+    width: 4px;
+    height: 550px;
+    position: absolute;
+    top: 130px;
+    border-radius: 10px;
+    left: 770px;
+
+}
+@keyframes redline{
+    from{
+        width: 0%;
+    }
+    to{
+        width:16%;
+    }}
+    .logop::after{
+        position: absolute;
+        top: 52px;
+        height: 4px;
+        left: 100px;
+        content: '';
+        animation: redline 4s ease forwards;
+        background-color: red;
+    }
+
+h1{
+    color:white;
+    font-size: 25px;
+    text-decoration: underline red;
+    font-weight: 500;
+    text-underline-offset: 5px;
+    position: absolute;
+    top: 250px;
+    right: 230px;
+    font-family:Arial, Helvetica, sans-serif;
+    z-index: 1;
+    
+
+}
+.donateshape{
+    height:400px;
+    width: 600px;
+    background-color: black;
+    position: absolute;
+    top:230px;
+    right: 120px;
+    filter: opacity(0.7);
+}
+.donatetop{
+    position: absolute;
+    top:300px;
+    right: 150px;
+    color: white;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.paymentshape{
+    background-color: black;
+}
+.blackbigshape{
+    background-color: black;
+    width: 90%;
+    height: 700px;
+    position: absolute;
+    bottom: -670px;
+    left: 80px;
+}
+.h2{
+    color:white;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: -50px;
+    left: 130px;
+    text-decoration: underline red;
+    text-underline-offset: 10px ;
+}
+form{
+    position: absolute;
+    bottom: -630px;
+    left: 130px;
+    
+
+}
+label{
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+input{
+    margin-bottom: 30px;
+    border: 0px solid;
+    border-radius: 25px;
+}
+.dropimg{
+    width: 40px;
+    height: 20px;
+}
+.card{
+    color:white;
+    position:absolute;
+    bottom: -300px;
+}
+
+.continue{
+    color:white;
+    font-size: 30px;
+    text-align:left;
+    padding-left: 20px;
+    width:250px;
+    height:45px;
+    background-color: purple;
+    border: 0px solid;
+    border-radius: 35px;
+    position: absolute;
+    bottom:220px;
+    left:210px;
+    transition: background-color 0.4s ease;
+}
+.continue:hover{
+    color: purple;
+    background-color: white;
+}
+.profile{
+    width:50px;
+    height:50px;
+    position: absolute;
+    bottom:-413px;
+    left: 520px;
+    
+}
+#email{
+    width: 250px;
+    height: 25px;
+}
+.number{
+    height: 25px;
+    width: 230px;
+}
+.Amount{
+    height: 25px;
+    width: 200px;
+}
+.currency{
+    height:25px;
+    width: 55px;
+}
+.cardno{
+    height:25px;
+    width: 250px;
+}
+.cvv{
+    height:25px;
+    width: 40px;
+}
+.submit{
+    background-color: purple;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    right: -1000px;
+    bottom: -50px;
+    transition: background-coloe 4s ease;
+}
+.submit:hover{
+  color: purple;
+  background-color: white;
+}
+.mainprofile{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 15px;
+    right: -680px;
+    transition: transform 0.4s ease;
+}
+.profilediv{
+    overflow: hidden;
+    display: inline-block;
+}
+.mainprofile:hover{
+    transform: scale(1.4);
+}
+.blackshape3{
+    width: 100%;
+    height: 620px;
+    position: absolute;
+    top: 3650px;
+    background-color: black;
+}
+.logo2{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 3680px;
+}
+.profile3{
+    display: flex;
+    justify-content: center;
+}
+.make{
+    font-family: "Dosis";
+    font-weight: 400;
+    font-size: 25px;
+    position: absolute;
+    top: 3820px;
+    z-index: 2;
+    color: white;
+    text-decoration: underline red 5px;
+    text-underline-offset: 5px;
+}
+.pvt{
+    font-family: "Dosis";
+    font-weight: 400;
+    font-size: 25px;
+    position: absolute;
+    top: 3855px;
+    z-index: 2;
+    color: white;
+}
+.branch{
+    font-family: "Dosis";
+    font-weight: 400;
+    font-size: 20px;
+    position: absolute;
+    top: 3920px;
+    left: 200px;
+    z-index: 2;
+    color: white;
+    text-decoration: underline red 2px;
+    text-underline-offset: 5px;
+}
+
+.branchp1{
+    position: absolute;
+    top: 3960px;
+    left:200px;
+    color: white;
+    font-family: "Dosis";
+    font-weight: 200;
+    font-size: 18px;
+}
+.branchp2{
+    position: absolute;
+    top: 4020px;
+    left:200px;
+    color: white;
+    font-family: "Dosis";
+    font-weight: 200;
+    font-size: 18px;
+}
+.branchp3{
+    position: absolute;
+    top: 4080px;
+    left:200px;
+    color: white;
+    font-family: "Dosis";
+    font-weight: 200;
+    font-size: 18px;
+}
+.contactdiv{
+    display: flex;
+    justify-content: center;
+}
+.contacts{
+    font-family: "Dosis";
+    font-weight: 400;
+    font-size: 20px;
+    position: absolute;
+    top: 3920px;
+    
+    z-index: 2;
+    color: white;
+    text-decoration: underline red 2px;
+    text-underline-offset: 5px;
+}
+.contacts1{
+    position: absolute;
+    top: 3960px;
+    
+    color: white;
+    font-family: "Dosis";
+    font-weight: 200;
+    font-size: 18px;
+}
+.contacts2{
+    position: absolute;
+    top: 3990px;
+    
+    color: white;
+    font-family: "Dosis";
+    font-weight: 200;
+    font-size: 18px;
+}
+.contacts3{
+    position: absolute;
+    top: 4020px;
+    
+    color: white;
+    font-family: "Dosis";
+    font-weight: 200;
+    font-size: 18px;
+}
+.connect{
+    font-family: "Dosis";
+    font-weight: 400;
+    font-size: 20px;
+    position: absolute;
+    top: 3920px;
+    right:200px;
+    z-index: 2;
+    color: white;
+    text-decoration: underline red 2px;
+    text-underline-offset: 5px;
+}
+.logo1{
+   position: absolute;
+   top: 3960px;
+   right: 250px;
+   width: 50px; 
+   height: 50px;
+   border-radius: 50%;
+}
+.logo4{
+    position: absolute;
+   top: 4080px;
+   right: 250px;
+   width: 50px; 
+   height: 50px;
+  
+}
+.logo3{
+    position: absolute;
+    top: 4020px;
+    right: 245px;
+    width: 60px; 
+    height: 50px;
+}
+.logo5{
+    position: absolute;
+    top: 4140px;
+    right: 245px;
+    width: 60px; 
+    height: 50px;
+}
+.logo7{
+    position: absolute;
+    top: 4200px;
+    right: 245px;
+    width: 60px; 
+    height: 50px;
+}
+.allrights{
+    font-size: 18px;
+    font-family: "Dosis";
+    font-weight: 500;
+    color: black;
+    position: absolute;
+    top: 4280px;
+    left: 38%;
+}
+.allrightscontainer{
+    text-align: center;
+}
+.footer{
+    position: relative;
+    bottom: 2220px;
+  
+}
+@font-face {
+    font-family: "Dosis";
+    src: url(Dosis-VariableFont_wght.ttf) ;
+}

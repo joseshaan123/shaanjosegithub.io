@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make A Change</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <!--header of the page-->
+    <header class="fixed">
+    <div class="introshape"></div>
+    <img src="logo-removebg-preview.png" alt="logo" class="logo">
+    <p class="logop"><b>MAKE A CHANGE</b></p>
+    <p class="logop1"><b>PVT LIMITED</b></p>
+    <!--Navigation buttons that take you to various pages of the website-->
+    <div class="nav">
+    <a href="index.html"><button class="navs">Home</button></a>
+    <button class="navs" onclick="alert('Please Sign Up to proceed')" >Donate</button>
+    <button class="navs"onclick="alert('Please Sign Up to proceed')">Shop</button>
+    <a href="images2.html"><button class="navs">Images</button></a>
+    <a href="videos2.html"><button class="navs">Videos</button></a>
+    <button class="navs"onclick="alert('Please Sign Up to proceed')">Educational</button>
+    <button class="navs"onclick="alert('Please Sign Up to proceed')">Healthcare</button>
+  </div>
+</header>
+<!--Nav and main content of the webpage-->
+    <div class="black"></div>
+    <!--form for signing up-->
+    <h1 >WELCOME</h1>
+    <h2>Sign Up</h2>
+    <form>
+    <!--User details-->
+      <label>Name</label><br>
+      <input type="text" value="Type your name here" class="name"><br><br>
+        <label>Your Email:-</label><br>
+        <input type="email" value="Type your email" class="email"><br><br>
+        <label>Your Gender:-</label><br><br>
+        <label>Male</label><br>
+        <input type="checkbox" class="checkbox1"><br>
+        <label>Female</label><br>
+        <input type="checkbox" class="checkbox2"><br><br>
+        <label>Mobile Number (Optional)</label><br>
+        <input type="number" class="mobileno"><br><br>
+        <label>DOB</label>
+        <input type="date" value="DD"><br><br>
+        <label>Adress</label><br>
+        <input type="text" value="Type your adress here" class="adress"><br>
+    </form>
+  <!--Card details-->
+  <h3 class="cardh">Card Details</h3>
+  <div class="line"></div>
+  <form class="carddetails">
+    <label>Card Number :-</label><br>
+    <input type="number" value="0000 0000 0000" class="cardno"><br><br>
+    <img src="mastercard.jpg" class="mastercard">
+    <img src="visa.png" class="visa"><br><br>
+    <label>Expiration Date</label><br>
+    <input type="date" ><br><br>
+    <label>Name on card:-</label><br>
+    <input type="text"class="nameoncard"><br><br>
+    <label>Security Code:-</label><br>
+    <input type="text" value="000" class="code">
+  </form>
+  <!--Submitting the form-->
+  <form id="signup" action="index2.html">
+    <input type="submit" class="submit" value="Sign In"  >
+  </form>
+<!--footer of the webpage-->
+  <div class="footer">
+    <footer>
+    <p class="allrights">©MAKE A CHANGE PVT LIMITED-ALL RIGHTS RESERVED</p>
+    </footer>
+</div>
+</body>
+<script >
+  document.getElementById('signup').onsubmit=function(signup){
+     signup.preventDefault();
+     alert('You Have Signed In! Welcome To Our Family')
+     setTimeout(() =>{
+          document.getElementById('signup').submit()
+     },0);
+};
+</script>
+
+</html>

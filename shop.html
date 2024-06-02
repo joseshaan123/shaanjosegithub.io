@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+<!--Header of the page-->
+    <header>
+    <div class="fixed">
+        <div class="introshape"></div>
+    <img src="logo-removebg-preview.png" alt="logo" class="logo">
+    <p class="logop"><b>MAKE A CHANGE</b></p>
+    <p class="logop1"><b>PVT LIMITED</b></p>
+    <!--Navigation Buttons that take you to various pages of the website-->
+    <div class="nav">
+    <a href="index2.html"><button class="navs">Home</button></a>
+    <a href="donate.html"><button class="navs">Donate</button></a>
+    <a href="shop.html"><button class="navs">Shop</button></a>
+    <a href="images.html"><button class="navs">Images</button></a>
+    <a href="videos.html"><button class="navs">Videos</button></a>
+    <a href="education.html"><button class="navs">Educational</button></a>
+    <a href="healthcare.html"><button class="navs">Healthcare</button></a>
+    </div>
+    <div class="profilediv">
+        <img src="profile_pic-removebg-preview.png" alt="profile" class="mainprofile">
+        </div>
+ </div>
+</header>  
+<!--Nav of the webpage-->
+<nav>
+    <div class="bigblackshape"></div>
+    <img src="logo-removebg-preview.png" alt="logo" class="smalllogo">
+    <img src="trolleycart-removebg-preview 1.png" alt="trolley" class="trolley">
+
+
+    <h1>SHOP FOR THE NEEDY</h1>
+    <p class="welcomenote">Welcome to our Make a Change shop for the needy. A new way to donate your preffered<br>donations through our website.Through this webpage, you can donate charity kits that<br>are offered by different companies that have partnered with us in the basis food,clothing,<br>
+        education and healthcare. U can buy how choose how many kits you want to donate<br> and we can provide those brought kits and other accessories the people who take refuge<br>in our camps. </p>
+    <div class="purpleshape"></div>
+    <!--Buttons for education-->
+    <div class="buttons">
+    <p class="educationsector">In Education sector</p>
+    <div class="educationbutton1">
+        <buttton onclick="addCart()"><img src="tbkit.jpeg" alt="tbkit" class="tbkit"></buttton>
+        <p class="tbkit1h">Text Book Kit for Kids 4-6</p>
+        <p class="tbkit1aed">-AED 20</p>
+        <p class="tbkit1p">Partnered with DC books</p>
+    </div>
+    <div class="educationbutton2">
+        <buttton onclick="addCart()"><img src="tbkit2.jpeg" alt="tbkit1" class="tbkit1"></buttton>
+        <p class="tbkit2h">Text Book Kit for Kids 7-10</p>
+        <p class="tbkit2aed">-AED 30</p>
+        <p class="tbkit2p">Partnered with DC books</p>
+    </div>
+    <div class="educationbutton3">
+        <buttton onclick="addCart()"><img src="tbkit3.png" alt="tbkit1" class="tbkit2"></buttton>
+        <p class="tbkit3h">Text Book Kit for Kids 11-15</p>
+        <p class="tbkit3aed">-AED 40</p>
+        <p class="tbkit3p">Partnered with DC books</p>
+    </div>
+    <div class="educationbutton4">
+        <buttton onclick="addCart()"><img src="stationarybox.jpeg" alt="tbkit1" class="tbkit3"></buttton>
+        <p class="tbkit4h">Stationary Box for Kids</p>
+        <p class="tbkit4aed">-AED 18</p>
+        <p class="tbkit4p">Partnered with Steadtler</p>
+    </div>
+    <div class="educationbutton5">
+        <buttton onclick="addCart()"><img src="pexels-thirdman-8926904.jpg" alt="tbkit1" class="tbkit4"></buttton>
+        <p class="tbkit5h">School Uniform for Kids 11-15</p>
+        <p class="tbkit5aed">-AED 40</p>
+        <p class="tbkit4p">Partnered with DC books</p>
+    </div>
+    <button class="readmore">></button>
+    <!--Buttons for healthcare-->
+    <p class="healthcaresector">In Healthcare Sector </p>
+    <div class="healthcarebutton1">
+        <buttton onclick="addCart()"><img src="medicalkit1.jpg" alt="tbkit" class="tbkit"></buttton>
+        <p class="medicalkit1h">Medical kit for First aid</p>
+        <p class="medicalkit1aed">-AED 20</p>
+        <p class="medicalkit1p">Partnered with First Aid UAE</p>
+    </div>
+    <div class="healthcarebutton2">
+        <buttton onclick="addCart()"><img src="medicalkit2.jpeg" alt="tbkit" class="tbkit"></buttton>
+        <p class="medicalkit2h">Capecitabine and Cyclophosphamide</p>
+        <p class="medicalkit2aed">-AED 20</p>
+        <p class="medicalkit2p">Partnered with Cancer Kits Uk</p>
+    </div>
+    <div class="healthcarebutton3">
+        <buttton onclick="addCart()"><img src="medicalkit3.jpg" alt="tbkit" class="tbkit"></buttton>
+        <p class="medicalkit3h">First AID Kits for Cancer</p>
+        <p class="medicalkit3aed">-AED 40</p>
+        <p class="medicalkit3p">Partnered Cancer Kits Uk</p>
+    </div>
+    <div class="healthcarebutton4">
+        <buttton onclick="addCart()"><img src="medicalkit4.jpg" alt="tbkit" class="tbkit"></buttton>
+        <p class="medicalkit4h">Medical kits for Surgery</p>
+        <p class="medicalkit4aed">-AED 50</p>
+        <p class="medicalkit4p">Partnered with Medcart</p>
+    </div>
+    <div class="healthcarebutton5">
+        <buttton onclick="addCart()"><img src="medicalkit5.jpeg" alt="tbkit" class="tbkit"></buttton>
+        <p class="medicalkit5h">Medical kits for splint</p>
+        <p class="medicalkit5aed">-AED 30</p>
+        <p class="medicalkit5p">Partnered with Medcart</p>
+    </div>
+    <button class="readmore2">></button>
+    <!-- Buttons for food and water kits-->
+    <p class="foodanddrinks">Food and Drinks</p>
+    <div class="foodbutton1">
+        <buttton onclick="addCart()"><img src="foodkit1.jpg" alt="tbkit" class="tbkit"></buttton>
+        <p class="foodkit1h">Non Veg Food kit</p>
+        <p class="foodkit1aed">-AED 15</p>
+        <p class="foodkit1p">Partnered with Mc Donalds</p>
+    </div>
+    <div class="foodbutton2">
+        <buttton onclick="addCart()"><img src="foodkit2.jpg" alt="tbkit" class="tbkit"></buttton>
+        <p class="foodkit2h">Water and fresh Juices</p>
+        <p class="foodkit2aed">-AED 20</p>
+        <p class="foodkit2p">Partnered with Aquafina</p>
+    </div>
+    <div class="foodbutton3">
+        <buttton onclick="addCart()"><img src="foodkit3.jpeg" alt="tbkit" class="tbkit"></buttton>
+        <p class="foodkit3h">Veg Food Kits</p>
+        <p class="foodkit3aed">-AED 10</p>
+        <p class="foodkit3p">Partnered with Climax Foods</p>
+    </div>
+    <div class="foodbutton4">
+        <buttton onclick="addCart()"><img src="foodkit4.jpg" alt="tbkit" class="tbkit"></buttton>
+        <p class="foodkit4h">Food kits For Kids</p>
+        <p class="foodkit4aed">-AED 15</p>
+        <p class="foodkit4p">Partnered with Mc Donalds</p>
+    </div>
+    <div class="foodbutton5">
+        <buttton onclick="addCart()"><img src="MRE_Menu_2_P8152664.jpg" alt="tbkit" class="tbkit"></buttton>
+        <p class="foodkit5h">MRE Food Kits</p>
+        <p class="foodkit5aed">-AED 30</p>
+        <p class="foodkit5p">Partnered with Govn of USA</p>
+    </div>
+    <button class="readmore3">></button>
+    <p class="clothingaccesories">Clothing Accesories</p>
+    <!--Buttons for clothing accessories-->
+    <div class="clothbutton1" onclick="addCart()">
+        <buttton ><img src="clothes1.jpeg" alt="tbkit" class="tbkit"></buttton>
+        <p class="clothkit1h">Shoes for Kids</p>
+        <p class="clothkit1aed">-AED 200</p>
+        <p class="clothkit1p">Partnered with Skechers</p>
+    </div>
+    <div class="clothbutton2"onclick="addCart()">
+        <buttton ><img src="cloth2.jpg" alt="tbkit" class="tbkit"></buttton>
+        <p class="clothkit2h">Womans Clothing Acessories</p>
+        <p class="clothkit2aed">-AED 200</p>
+        <p class="clothkit2p">Partnered with Max</p>
+    </div>
+    <div class="clothbutton3">
+        <buttton onclick="addCart()"><img src="cloth3.jpeg" alt="tbkit" class="tbkit"></buttton>
+        <p class="clothkit3h">Mens Clothing Accesories</p>
+        <p class="clothkit3aed">-AED 150</p>
+        <p class="clothkit3p">Partnered with Splash</p>
+    </div>
+    <div class="clothbutton4">
+        <buttton onclick="addCart()"><img src="cloth4.jpeg" alt="tbkit" class="tbkit"></buttton>
+        <p class="clothkit4h">Sportswear for Kids</p>
+        <p class="clothkit4aed">-AED 100</p>
+        <p class="clothkit4p">Partnered with Skechers</p>
+    </div>
+    <div class="clothbutton5">
+        <buttton onclick="addCart()"><img src="cloth5.webp" alt="tbkit" class="tbkit"></buttton>
+        <p class="clothkit5h">Sports wear for men</p>
+        <p class="clothkit5aed">-AED 200</p>
+        <p class="clothkit5p">Partnered with Adidas</p>
+    </div>
+   
+    <button class="readmore4">></button>
+    <div class="blackshape"></div>
+</div>
+<!--Add To Cart 1-->
+<div class="addtocartdiv">
+<div class="addtocartshape"></div>
+<p id="addtocart" class="addtocart">Add to Cart:- 0</p>
+<img src="trolleycart-removebg-preview 1.png" alt="trolley" class="trolley2">
+</div>
+<!--Add to cart 2-->
+<p id="addtocart2" class="addtocart2">Added to Cart:- 0</p>
+<img src="trolleycart-removebg-preview 1.png" alt="trolley" class="trolley3">
+<div class="blackshape"></div>
+<!--Form for payment-->
+<form>
+    <label>Email</label><br>
+    <input type="email" id="email" value="Your email" ><br>
+    <label>Mobile Number</label><br>
+    <input type="number" class="number"><br>
+    <label>Amount of Donation</label><br>
+    <select  class="currency" >
+        <option>USD</option>
+        <option>INR</option>
+        <option>EUR</option>
+        <option>AED</option>
+        <option>JPY</option>
+        <option>CHF</option>
+        <option>GBP</option>
+        <option>BEF</option>
+    </select>
+    <input type="number" class="Amount"><br>
+    <label>Card Details or</label><br><br><br>
+    <label>Card Number</label><br>
+    <button class="continue">Continue as</button>
+    <input type="number" class="cardno"><br>
+    <label>CVV</label><br>
+    <input type="password"value="***"class="cvv"><br>
+    <!--input for submission-->
+    <input type="submit" class="submit" value=DONATE id="submit" onclick="alert('Payment Successfull! Thank Your For Your Donation')" formaction="index2.html">
+    <img src="profile_pic-removebg-preview.png" alt="profile" class="profile2" >
+</form>
+
+</nav>
+<!--Footer of the webpage-->
+<div class="footer">
+    <footer>
+        <div class="blackshape3"></div>
+        <div class="profile3">
+        <img src="logo-removebg-preview.png" alt="logo" class="logo2">
+        <!--Heading of the Footer-->
+        <p class="make">MAKE A CHANGE</p>
+        <p class="pvt">PVT LIMITED</p>
+        </div>
+        <!--Branches-->
+        <p class="branch">BRANCHES</p>
+        <div class="branchdiv">
+            <p class="branchp1">Make A Change Foundation-Sharjah<br>Near fire station Butina,Sharjah</p>
+            <p class="branchp2">Make A Change Foundation-Dubai<br>Near The Dubai Mall,Downtown Dubai.</p>
+            <p class="branchp3">Make A Change Foundation-New York<br>Near Trump Tower,Midtown Manhattan.</p>
+        </div>
+        <!--Contacts-->
+        <div class="contactdiv">
+            <p class="contacts">OUR CONTACTS</p>
+            <p class="contacts1">:-makeachange@gmail.com</p>
+            <p class="contacts2">06-4285234</p>
+            <p class="contacts3">050-4255342</p>
+        </div>
+        <!--Connect us with-->
+        <p class="connect">CONNECT US WITH</p>
+        <div class="connects">
+        <img src="logo1.png"alt="logo" class="logo1">
+        <img src="logo6.webp"alt="logo4" class="logo4">
+        <img src="logo4.png"alt="logo" class="logo3">
+        <img src="instagramlogo-removebg-preview.png"alt="logo" class="logo5">
+        <img src="logo7.webp"alt="logo" class="logo7">
+        </div>
+        <div class="allrightscontainer">
+        <p class="allrights">©MAKE A CHANGE PVT LIMITED-ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+</div>
+<!--Script of the webpage-->
+<script src="shop.js"></script>
+</body>
+</html>
