@@ -424,7 +424,8 @@ input {
 .message {
     height: 200px;
     width: 400px;
-    
+    border-radius: 25px;
+    border: 0px;
 }
 .submit{
     height: 50px;
